@@ -15,39 +15,39 @@ To achieve this objective, the following research methods were applied: analysis
 The relevance of this work lies in the need to implement additional monitoring methods for the state of the ICMS and reactor core of VVER-1000 reactors, due to design modifications of the ICMS and the increasing volume of data provided to operational personnel.<br />
 
  # 🎯 Key Objectives
-Improve reliability of identifying changes in the state of VVER-1000 reactor cores.<br />
-Develop and implement supplementary methods and algorithms for reactor core condition monitoring, in addition to existing ones.<br />
-Ensure timely detection of physical processes in the reactor core.<br />
-Identify inaccurate or unreliable measurements from the in-core monitoring system (ICMS).<br />
-Enhance quality and efficiency of information presentation and analysis for operators.<br />
-Analyze the ICMS structure and data presentation for VVER-1000 reactors.<br />
-Evaluate existing verification methods of the measuring system and reactor core condition.<br />
-Design new algorithms and methods for processing ICMS data and software outputs.<br />
-Address the need for additional monitoring due to ICMS design modifications and increasing data volume.<br />
+1. Improve reliability of identifying changes in the state of VVER-1000 reactor cores.<br />
+2. Develop and implement supplementary methods and algorithms for reactor core condition monitoring, in addition to existing ones.<br />
+3. Ensure timely detection of physical processes in the reactor core.<br />
+4. Identify inaccurate or unreliable measurements from the in-core monitoring system (ICMS).<br />
+5. Enhance quality and efficiency of information presentation and analysis for operators.<br />
+6. Analyze the ICMS structure and data presentation for VVER-1000 reactors.<br />
+7. Evaluate existing verification methods of the measuring system and reactor core condition.<br />
+8. Design new algorithms and methods for processing ICMS data and software outputs.<br />
+9. Address the need for additional monitoring due to ICMS design modifications and increasing data volume.<br />
 
  # 🛠️ Tools and Technologies
-Matlab / Simuling: Modelling and simualion<br />
-GARANT information system: For VVER-1000 units in Russia, the ICMS software commonly used is “GRAND”, which supports monitoring, diagnostics, and validation of measurement channels, and helps operators identify both physical processes in the reactor core and unreliable detector readings.<br />
+1. Matlab / Simuling: Modelling and simualion<br />
+2. GARANT information system: For VVER-1000 units in Russia, the ICMS software commonly used is “GRAND”, which supports monitoring, diagnostics, and validation of measurement channels, and helps operators identify both physical processes in the reactor core and unreliable detector readings.<br />
 
  # 🔒 Key Features
-Real-time data acquisition – collects signals from in-core detectors (neutron flux, temperature, etc.) with high reliability.<br />
-3D core state reconstruction – calculates neutron flux, power distribution, fuel burnup, and temperature fields across the reactor core.<br />
-Transient and anomaly detection – identifies deviations, transients, and abnormal processes through comparison with reference models.<br />
-Measurement channel diagnostics – verifies the correctness of detector signals and identifies faulty or unreliable channels.<br />
-Data reduction and analysis – applies methods such as the Principal Component Method to reduce dimensionality while preserving essential information.<br />
-Visualization tools – provides operators with maps, graphs, and diagrams of core parameters for decision support.<br />
-Integration with safety and control systems – supplies validated input for reactivity management and protection system functions.<br />
-Support for power uprates and design modifications – adapts to expanded operational ranges (e.g., VVER-1000 uprating to 104%).<br />
-Operator support functions – improves information clarity and analysis efficiency to enhance situational awareness in the control room.<br />
-Mathematical Modelling - Simulate the in-core detectors and in-core monitoring system (ICMS).<br />
-HMI - Monitor and adjust parameters in real-time.<br />
+1. Real-time data acquisition – collects signals from in-core detectors (neutron flux, temperature, etc.) with high reliability.<br />
+2. 3D core state reconstruction – calculates neutron flux, power distribution, fuel burnup, and temperature fields across the reactor core.<br />
+3. Transient and anomaly detection – identifies deviations, transients, and abnormal processes through comparison with reference models.<br />
+4. Measurement channel diagnostics – verifies the correctness of detector signals and identifies faulty or unreliable channels.<br />
+5. Data reduction and analysis – applies methods such as the Principal Component Method to reduce dimensionality while preserving essential information.<br />
+6. Visualization tools – provides operators with maps, graphs, and diagrams of core parameters for decision support.<br />
+7. Integration with safety and control systems – supplies validated input for reactivity management and protection system functions.<br />
+8. Support for power uprates and design modifications – adapts to expanded operational ranges (e.g., VVER-1000 uprating to 104%).<br />
+9. Operator support functions – improves information clarity and analysis efficiency to enhance situational awareness in the control room.<br />
+10. Mathematical Modelling - Simulate the in-core detectors and in-core monitoring system (ICMS).<br />
+11. HMI - Monitor and adjust parameters in real-time.<br />
 
  # 📈 Conclusions and Results
-Algorithms for analyzing and visually representing changes in the state of the VVER-1000 reactor core based on in-core monitoring system data have been developed and presented.<br />
-Using the Principal Component Method, the initial ICMS measurement data are represented in a two-dimensional coordinate system of eigenvectors of the correlation matrix corresponding to the maximum eigenvalues, while preserving 98% of the original information.<br />
-Processing of ICMS data from Unit 2 of the Kalinin NPP was carried out during the verification of the correct connection of DPZ sensors to the measuring system and during a transient process associated with the self-movement of control rod clusters.<br />
-The obtained results demonstrated the effectiveness of the proposed algorithms for clear and prompt analysis of the reactor core state.<br />
-The presented algorithms can be used in the development of an automated system for analyzing the state of the VVER-1000 reactor core.<br />
+1. Algorithms for analyzing and visually representing changes in the state of the VVER-1000 reactor core based on in-core monitoring system data have been developed and presented.<br />
+2. Using the Principal Component Method, the initial ICMS measurement data are represented in a two-dimensional coordinate system of eigenvectors of the correlation matrix corresponding to the maximum eigenvalues, while preserving 98% of the original information.<br />
+3. Processing of ICMS data from Unit 2 of the Kalinin NPP was carried out during the verification of the correct connection of DPZ sensors to the measuring system and during a transient process associated with the self-movement of control rod clusters.<br />
+4. The obtained results demonstrated the effectiveness of the proposed algorithms for clear and prompt analysis of the reactor core state.<br />
+5. The presented algorithms can be used in the development of an automated system for analyzing the state of the VVER-1000 reactor core.<br />
 
  # 💡 About VVER-1000
 The VVER-1000 is a pressurized water reactor (PWR) with ~1000 MWe output. It uses light water as coolant and moderator, contains 163 fuel assemblies with enriched uranium fuel, and employs control rods and safety systems to ensure reliable, long-term operation in many countries.<br />
