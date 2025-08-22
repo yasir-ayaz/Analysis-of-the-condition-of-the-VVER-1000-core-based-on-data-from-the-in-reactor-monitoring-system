@@ -1,5 +1,5 @@
  # 📌 Project Overview
-Analysis-of-the-condition-of-the-VVER-1000-core-based-on-data-from-the-in-reactor-monitoring-system <br />
+## Analysis-of-the-condition-of-the-VVER-1000-core-based-on-data-from-the-in-reactor-monitoring-system <br />
 The purpose of this work is to improve the reliability of identifying changes in the state of VVER-1000 reactor cores through the development and implementation of additional methods and algorithms for monitoring the reactor core condition based on in-core monitoring system (ICMS) data, as well as the state of the in-core monitoring software (Grand), in order to ensure timely detection of physical processes occurring in the reactor core and to identify unreliable readings of the measuring system.<br />
 To solve this task, the Principal Component Method (PCA) is used.<br />
 The normal state of the reactor core is represented by a graph of the detector signal readings (DPZ) in the first two principal components, preserving up to 98% of the information contained in the original data. The Principal Component Method is one of the key approaches for reducing data dimensionality with minimal loss of information. The detection of transient processes in the reactor core is carried out by comparing the current state with the reference graph and is visualized on a map diagram.<br />
