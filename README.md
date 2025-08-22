@@ -1,0 +1,2 @@
+# Analysis-of-the-condition-of-the-VVER-1000-core-based-on-data-from-the-in-reactor-monitoring-system
+This work improves reliability of VVER-1000 reactor core state identification using in-core monitoring data and the Principal Component Method. Up to 98% of information is preserved while detecting transients by comparing current states with reference graphs. The method’s effectiveness is shown with Kalinin NPP Unit 2 data.
